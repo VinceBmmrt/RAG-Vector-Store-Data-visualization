@@ -1,4 +1,21 @@
+ #Visualizing Document Embeddings with Chroma & t-SNE
+
 # 🧠 RAG Knowledge Base – Embeddings, Vector Store & Visualization
+
+
+## 📊 Chroma Vector Store Visualizations
+
+### 2D Projection
+This visualization shows the 2D projection of document embeddings using **t-SNE**. It allows us to observe how documents cluster semantically.
+
+![2D Vector Store Chroma DB Visualization](ChromaDB_vizualisation/2D%20vector%20store%20chroma%20DB%20visualisation.png)
+
+### 3D Projection
+A 3D t-SNE projection to better understand the spatial distribution of embeddings across document types.
+
+![3D Vector Store Chroma DB Visualization](ChromaDB_vizualisation/3D%20vector%20store%20chroma%20DB%20visualisation.png)
+
+
 
 This project builds a Retrieval-Augmented Generation (RAG) foundation by transforming a Markdown knowledge base into vector embeddings, storing them in a vector database, and visualizing the semantic space to analyze and compare embedding models.
 
